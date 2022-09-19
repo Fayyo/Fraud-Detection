@@ -23,8 +23,9 @@ with header:
 with dataset:
     st.header('Online Payments Dataset')
     st.text('I got this dataset from Kaggle.com. It contains over 6 million samples and 11 features')
-
-    online_payments = get_data('data/Online payments.csv')
+    
+    url = 'https://www.kaggle.com/datasets/rupakroy/online-payments-fraud-detection-dataset'
+    online_payments = get_data(url)
     st.write(online_payments.head())
 
 
