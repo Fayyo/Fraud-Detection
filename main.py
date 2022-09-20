@@ -2,6 +2,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
+from sklearn.linear_model import LogisticRegression
 
 header = st.container()
 dataset = st.container()
