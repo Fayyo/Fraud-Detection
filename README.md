@@ -6,8 +6,6 @@ The data set was gotten from kaggle containing over 6 million online transaction
 Link to the data file: https://www.kaggle.com/datasets/rupakroy/online-payments-fraud-detection-dataset
 
 How to set up the project locally
-clone the repo git clone https://github.com/Fayyo/Fraud Detection
+clone the repo git clone https://github.com/Fayyo/Fraud-Detection.git
 
 Installing packages pip install -r requirements.txt
-
-Then run streamlit run streamlit.py to view the app locally
