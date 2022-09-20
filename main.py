@@ -23,7 +23,7 @@ with dataset:
     st.header('Online Payments Dataset')
     st.text('I got this dataset from Kaggle.com. It contains over three hundred thousand samples and 11 features')
 
-    online_payments = get_data('data/online_payments.csv')
+    online_payments = get_data('online_payments.csv')
     st.write(online_payments.head())
 
 
@@ -51,7 +51,7 @@ with model_training:
     input_feature_4 = st.number_input('What will your account balance be after the transaction', min_value=0, step=1000)
 
 
-    loaded_model = pickle.load(open('C:/Users/SEUN/Desktop/online fraud/data/trained_lr_model.csv', 'rb'))
+    loaded_model = pickle.load(open('trained_lr_model.csv', 'rb'))
 
 
     submit = st.button('Predict')
